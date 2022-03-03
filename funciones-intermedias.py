@@ -33,6 +33,14 @@ def iterateDictionary(estudiantes):
     for i in estudiantes:
         print(f"first_name - {i['first_name']}, last_name - {i['last_name']}")
 
+#para diccionarios
+# for key,valor in diccionario.items():
+    
+# for key in diccionario:
+#     diccionario.get(key,"mensaje si no hay")
+    
+
+
 iterateDictionary(estudiantes)
 # debería devolver: (está bien si cada par clave-valor termina en 2 líneas separadas;
 # un bonus para que aparezcan exactamente como se muestra a continuación)
